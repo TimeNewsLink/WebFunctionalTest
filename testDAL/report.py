@@ -1,6 +1,6 @@
-__author__ = 'jiangzhenyang'
+# -*- coding: utf-8 -*-
+from Common.variable import GetVariable as gv
 import xlsxwriter
-from common.variable import GetVariable as gv
 class OperateReport:
     def __init__(self, wd, data):
         self.wd = wd
@@ -187,7 +187,7 @@ def _write_center(worksheet, cl, data, wd):
 def set_row(worksheet, num, height):
     worksheet.set_row(num, height)
 
- # 生成饼形图
+# 生成饼形图
 # def pie(workbook, worksheet):
 #     chart1 = workbook.add_chart({'type': 'pie'})
 #     chart1.add_series({
@@ -206,13 +206,12 @@ if __name__ == '__main__':
  'init': [{'phone_avg_use_raw': '8%', 'phone_pix': ' 1080x1920\n', 'phone_avg_use_cpu': '0%', 'fps_avg': '0.00', 'fps_max': '0.0', 'phone_raw': '3014M', 'phone_name': 'Huawei_H60-L02_android_4.4.2', 'phone_avg_max_use_cpu': '0.0%', 'phone_max_use_raw': '23M', 'phone_cpu': '8核'}, {'phone_name': 'Huawei_H60-L02_android_4.4.2', 'phone_pix': ' 1080x1920\n', 'phone_avg_use_cpu': '0', 'fps_avg': '0', 'fps_max': '0', 'phone_raw': '3014M', 'phone_avg_use_raw': '0', 'phone_cpu': '8核', 'phone_max_use_raw': '0', 'phone_avg_max_use_cpu': '0'}],
 'test_sum': 3, 'app_version': "'1.0'"}
     workbook = xlsxwriter.Workbook('GetReport.xlsx')
-    worksheet = workbook.add_worksheet("测试总况")
-    worksheet2 = workbook.add_worksheet("测试详情")
+    worksheet = workbook.add_worksheet("测试总况1")
+    worksheet2 = workbook.add_worksheet("测试详情2")
     bc = OperateReport(wd=workbook, data=data)
     bc.init(worksheet)
     bc.test_detail(worksheet2)
     bc.close()
-    #
 
 
 

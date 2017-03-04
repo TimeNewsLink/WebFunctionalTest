@@ -1,4 +1,5 @@
-__author__ = 'shikun'
+# -*- coding: utf-8 -*-
+__author__ = 'jiangzhenyang'
 # 查找元素的方式
 class GetVariable(object):
     NAME = "name"
