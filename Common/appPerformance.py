@@ -1,4 +1,4 @@
-__author__ = 'shikun'
+__author__ = 'jiang'
 # -*- coding: utf-8 -*-
 import subprocess
 import re, os
