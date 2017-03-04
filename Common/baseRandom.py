@@ -1,4 +1,4 @@
-__author__ = "shikun"
+__author__ = ""
 import datetime
 import random
 #用时间生成一个唯一随机数

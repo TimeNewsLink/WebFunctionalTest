@@ -8,7 +8,7 @@ PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
 )
 import threading
-class AppiumServer:
+class seleniumServer:
     def __init__(self, l_devices):
         self.l_devices = l_devices
     def start_server(self):

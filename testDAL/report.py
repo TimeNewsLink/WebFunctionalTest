@@ -1,4 +1,4 @@
-__author__ = 'shikun'
+__author__ = 'jiangzhenyang'
 import xlsxwriter
 from common.variable import GetVariable as gv
 class OperateReport:
