@@ -2,7 +2,7 @@
 * 此项目是在[appium](https://github.com/appium/appium)和[Selenium](https://github.com/SeleniumHQ/selenium)开源工具封装而成的自动化app和web测试工具
 
 # 功能
-* 都是基于python3
+* 都是基于python2
 * 都是基于webdriver，大部分代码都可以通用，只是配置文件不一样
 * APP监控了常用的men,cpu,fps
 * 数据维护用的YMAL
