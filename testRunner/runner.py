@@ -119,18 +119,18 @@ if __name__ == '__main__':
             p = Process(target=open_web_server, args=())
             p.start()
 
-            appium_server = server.AppiumServer(ga)
-            appium_server.start_server()
-            while not appium_server.is_runnnig():
-                time.sleep(2)
-            runnerPool()
-            appium_server.stop_server()
-            subprocess.Popen("taskkill /F /T /PID " + str(p.pid), shell=True)
-            # web_server.server_close() #关闭webserver
-            operateFile.OperateFile(common.REPORT_COLLECT_PATH).remove_file()
-            operateFile.OperateFile(common.REPORT_INIT).remove_file()
-            operateFile.OperateFile(common.REPORT_INFO_PATH).remove_file()
-            operateFile.OperateFile(common.CRASH_LOG_PATH).remove_file()
+            # appium_server = server.AppiumServer(ga)
+#             appium_server.start_server()
+#             while not appium_server.is_runnnig():
+#                 time.sleep(2)
+#             runnerPool()
+#             appium_server.stop_server()
+#             subprocess.Popen("taskkill /F /T /PID " + str(p.pid), shell=True)
+#             # web_server.server_close() #关闭webserver
+#             perateFile.OperateFile(common.REPORT_COLLECT_PATH).remove_file()
+#             operateFile.OperateFile(common.REPORT_INIT).remove_file()
+#             operateFile.OperateFile(common.REPORT_INFO_PATH).remove_file()
+#             operateFile.OperateFile(common.CRASH_LOG_PATH).remove_file()
 
         else:
             print(u"设备不存在")
