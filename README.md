@@ -1,5 +1,5 @@
 # 项目名及简介
-* 此项目是在[appium](https://github.com/appium/appium)和[Selenium](https://github.com/SeleniumHQ/selenium)开源工具封装而成的自动化app和web测试工具
+* 此项目是在[Selenium](https://github.com/SeleniumHQ/selenium)开源工具封装而成的自动化web测试工具基础上，结合NLP自然语言识别等技术，完成人工智能测试。
 
 # 功能
 * 都是基于python2
