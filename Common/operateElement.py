@@ -1,4 +1,4 @@
-__author__ = 'shikun'
+__author__ = 'jiangzhenyang'
 # -*- coding: utf-8 -*-
 from selenium.webdriver.support.ui import WebDriverWait
 import selenium.common.exceptions
