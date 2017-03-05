@@ -6,7 +6,7 @@ class OperateReport:
         self.wd = wd
         self.data = data
     def init(self, worksheet):
-         # 设置列行的宽高
+        # 设置列行的宽高
         worksheet.set_column("A:A", 15)
         worksheet.set_column("B:B", 20)
         worksheet.set_column("C:C", 20)
