@@ -1,5 +1,5 @@
-__author__ = 'shikun'
-from common.variable import GetVariable as common
+__author__ = 'jiangzhenyang'
+from Common.variable import GetVariable as common
 import os
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
