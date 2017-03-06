@@ -6,11 +6,12 @@
 ### 2015-10-10 更新日志
 *  Common 主要放一些全局变量，其他公用方法
 *  img 主要放一些图片，测试的app文件
-*  testBLL  三层
-*  testDAL 三层
+*  testBLL  三层：业务逻辑层
+*  testDAL 三层：数据访问层
 *  testModel 三层
 *  testRunner 
-  *  一个抽象入口，主要管理整个框架的setUpClass,tearDownClass，以及parametrize
+  *  一个抽象入口，主要管理整个框架的setUpClass（主要实现测试前的初始化工作）,
+  tearDownClass（主要实现测试完成后的垃圾回收等工作），以及parametrize
   * 一个是真正的入口，调用抽象入口
 	
 
